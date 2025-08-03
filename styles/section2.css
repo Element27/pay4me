@@ -1,0 +1,42 @@
+.section-2{
+    padding: 20px 0;
+}
+
+.section-2-title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-2-title p{
+ width: 60%;
+ margin: 10px  auto;
+
+}
+
+.section-2-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin: 20px auto;
+}
+.section-2-imgs img {
+    width: 20%;
+}
+
+@media screen and (max-width: 768px) {  
+    .section-2-title{
+        width: 90%;
+    }
+    .section-2-title p{
+     width: 80%;
+    }
+    .section-2-imgs{
+        width: 100%;
+    }
+    .section-2-imgs img {
+        width: 45%;
+    }
+}   
